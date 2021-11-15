@@ -1,4 +1,3 @@
-
 import 'package:parcial3_proyectos/pag_sec/a%C3%B1adir.dart';
 
 import 'flutter_flow/flutter_flow/flutter_flow_theme.dart';
@@ -7,7 +6,6 @@ import 'flutter_flow/flutter_flow/flutter_flow_widgets.dart';
 import 'flutter_flow/flutter_flow_widgets.dart';
 import 'package:cached_network_image/cached_network_image.dart';*/
 import 'package:flutter/material.dart';
-
 
 class HomePage extends StatefulWidget {
   HomePage({Key key}) : super(key: key);
@@ -78,11 +76,11 @@ class _HomePage1WidgetState extends State<HomePage> {
                 child: FFButtonWidget(
                   onPressed: () {
                     Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => Add_event(),
-                            ),
-                          );
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => Add_event(),
+                      ),
+                    );
                     print('Button pressed ...');
                   },
                   text: 'Evento 3',
